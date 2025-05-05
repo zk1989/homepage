@@ -1,40 +1,4 @@
-I'm aware that code in this repository doesn't include some of the state-of-the-art practices
-and approaches in front-end area. I'm not professionally a front-end developer - I made it for fun,
-to have some basic experience of creating a static website. I wanted to represent what I've learned,
-so this is something simple, understandable and basic.
-
-
-what I learned:
-
- - that it is useful to fix scrollbar as always visible - without it, the page will visibly "jump" depending on the length of the page - whether it overflows the viewport or not
- - that if default html/body values in terms of margins and padding are not overwritten, the browser defaults will be applied, called "user agent styles" or user agent settings
- - that header is a broader term - can contain logo, while nav is only for navigation purposes
- - it's useful to ask it to color divs and draw their outlines
- - tyles defined later in the file override earlier ones with the same specificity
- - inheritance for color
-  - no frameworks
-
-  Lessons learned - AI:
-   - in the current stage AI is not capable of creating a complete, bugless website on its own, even simple ones
-   - the part where it stumbles the most were grid/flex structures
-   - often would add changes that I didnt ask for even when its included in the main rules
-   - what is suggests was very generic and lacked any personal touch
-
-
-
-   I've just made my homepage public - I've been working on this idea for some time,
-   as a part of an assignment on my postgraduate degree, and also in the name of the idea
-   that anyone in programming should make at least one website - just to get the feeling.
-   It's nothing fancy, but that wasn't the main point. I liked working on it.
-   There's hardly anything identifiable about me on it, since in the Ai era everything on the internet 
-   is now public and subject to be consumed by AI. 
-
-   No frameworks.
-
-   Front end work requires an immense amount of knowledge, 
-   front end devs are good
-   shout out to james
-
-   I made no conclusions that I havent seen - affter initial wow effect, there's so much work
-   to be done when verifying provided code, testing it, refactoring, debugging,
-   removing unasked for changes, removing obsolete code that it leaves from previous attempts.
+My code in this repository doesn't include some of the state-of-the-art practices and approaches in front-end area.
+It's because I'm not professionally a front-end developer.
+I made this for fun and to have some basic experience of creating a static website.
+So I've only used HTML, CSS, and JavaScript concepts that I currently understand.
