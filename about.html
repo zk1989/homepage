@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>My Homepage :-)</title>
+  <!-- Font Awesome, includes LinkedIn and GitHub icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Quicksand -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header>
+  <h1>Zuzanna K.</h1>
+  <nav>
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="nav-content">
+      <ul class="nav-items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proust.html">Proust Questionnaire</a></li>
+        <li><a href="trivia.html">Trivia</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="social-links">
+        <a target="_blank" href="https://www.linkedin.com/in/zuzanna-kocik">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://github.com/zk1989">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="page-content">
+  <div class="section-header">
+    <h2>About</h2>
+  </div>
+
+  <div class="about-content">
+    <div class="about-section">
+      <p><b>General</b><br>
+        All design and layout ideas of this website are my own. I started working without any AI support.
+        Then some of the more challenging parts and refactoring were dealt with GitHub Copilot in Visual Studio Code and
+        through vibe-coding with Windsurf (apart from standard Stack Overflow browsing, of course).</p>
+    </div>
+
+
+    <div class="about-section">
+      <p><b>Tools I used:</b><br>
+        - I created the pattern in the background with: <a href="https://pattern.monster/">https://pattern.monster/</a><br>
+        - I took CSS for thought bubble from here: <a href="https://codepen.io/quadbaup/pen/rKOKQv">https://codepen.io/quadbaup/pen/rKOKQv</a><br>
+        - at different stages of working on this, I used Visual Studio Code, JetBrains WebStorm and Windsurf</p>
+    </div>
+
+    <div class="about-section">
+      <p><b>Lessons learned - AI:</b><br>
+        - it's greedy - any imprecision or incorrectly set limitations can result in unasked for changes entirely out of scope<br>
+        - content that AI provides gives an impersonal vibe, it's generic - it's only good if that's what you're looking for</p>
+    </div>
+
+    <div class="about-section">
+      <p><b>Lessons learned - front-end:</b><br>
+        - it's useful to fix scrollbar as fixed (always visible) - without this, the page will "jump" depending on the width of the content<br>
+        - if default html/body values in terms of margins and padding are not overwritten, the browser defaults will be applied, called "user agent styles" or "user agent settings"<br>
+        - header is a broader term - it can contain logo and navigation, while all "nav" elements are only for navigation purposes<br>
+        - for composition debugging (flex/grid structures) it's good to ask AI to color all divs differently and draw their outlines<br>
+        - I learned basic usage and definition of variables (custom properties) in CSS</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div>
+    2025 Copyright: Zuzanna Kocik
+  </div>
+</footer>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navContent = document.querySelector(".nav-content");
+
+    // Named function for toggling the menu
+    const toggleMenu = function() {
+      navContent.classList.toggle("show");
+    };
+
+    // Named function for handling window resize
+    const handleResize = function() {
+      if (window.innerWidth >= 768) {
+        navContent.classList.remove("show");
+      }
+    };
+
+    // Add event listeners using the named functions
+    menuToggle.addEventListener("click", toggleMenu);
+    window.addEventListener("resize", handleResize);
+  });
+</script>
+
+</body>
+</html>
