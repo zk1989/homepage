@@ -425,7 +425,7 @@ footer {
     background: var(--gradient-bg);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 12px;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
     border-radius: 15px;
     z-index: 9999; 
@@ -448,6 +448,7 @@ footer {
   .nav-items a {
     padding: 8px 12px;
     border-radius: 15px;
+    white-space: nowrap;
   }
 
   .social-links {
