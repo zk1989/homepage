@@ -357,7 +357,7 @@ footer {
   height: auto;
   border-radius: 4px;
   object-fit: cover;
-  aspect-ratio: 4/3; /* This creates a consistent aspect ratio for all images */
+  aspect-ratio: 4/3;
 }
 
 .trivia-text {
@@ -396,6 +396,11 @@ footer {
   margin-bottom: 0;
 }
 
+.about-content a {
+  color: rgb(79, 79, 79);
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    Consolidated Media Queries
    ========================================================================== */
@@ -403,7 +408,7 @@ footer {
 @media (max-width: 768px) {
   /* Navigation Responsive Styles */
   .menu-toggle {
-    display: block; /* Show on mobile */
+    display: block;
   }
 
   .nav-content {
@@ -495,7 +500,7 @@ footer {
     height: auto;
     aspect-ratio: 4/3;
     object-fit: cover;
-    max-height: 300px; /* Prevent images from becoming too large */
+    max-height: 300px;
   }
   
   .trivia-text {
