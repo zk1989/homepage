@@ -136,10 +136,12 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .content-section {
-  padding: 10px;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .with-image {
@@ -488,11 +490,25 @@ footer {
   
   .text-content, .image-content {
     width: 100%;
+    padding: 0;
+  }
+  
+  .text-content {
+    padding-right: 0;
+  }
+  
+  .image-content {
+    margin-top: 10px;
   }
   
   .image-content img {
     max-width: 100%;
     margin: 0 auto;
+  }
+  
+  .content-section h2,
+  .content-section h3 {
+    margin-top: 0;
   }
   
   /* Trivia Page Responsive Styles */
