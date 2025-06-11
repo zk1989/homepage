@@ -82,7 +82,6 @@ nav {
   color: rgb(79, 79, 79);
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: 500;
   transition: all 0.3s ease;
   padding: 8px 12px;
   border-radius: 20px;
@@ -105,7 +104,7 @@ nav {
   color: rgb(79, 79, 79);
   transition: all 0.3s ease;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 20px;
   background: transparent;
 }
 
@@ -114,8 +113,9 @@ nav {
   background: var(--gradient-bg);
 }
 
-.social-links i {
-  font-size: 1.5rem;
+.menu-toggle .feather {
+  width: 1.4em;
+  height: 1.4em;
 }
 
 /* Footer Styles */
@@ -181,7 +181,7 @@ footer {
   width: 100%;
   border: 5px solid rgb(249, 236, 231);
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Thought Styles */
