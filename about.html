@@ -14,30 +14,30 @@
 </head>
 
 <body>
-<header>
-  <h1><a href="index.html">Zuzanna K.</a></h1>
-  <nav>
-    <button class="menu-toggle">
-      <i data-feather="menu"></i>
-    </button>
-    <div class="nav-content">
-      <ul class="nav-items">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="proust.html">Proust Questionnaire</a></li>
-        <li><a href="trivia.html">Trivia</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-      <div class="social-links">
-        <a target="_blank" href="https://www.linkedin.com/in/zuzanna-kocik">
-          <i data-feather="linkedin"></i>
-        </a>
-        <a target="_blank" href="https://github.com/zk1989">
-          <i data-feather="github"></i>
-        </a>
+  <header>
+    <h1><a href="index.html">Zuzanna K.</a></h1>
+    <nav>
+      <button class="menu-toggle">
+        <i data-feather="menu"></i>
+      </button>
+      <div class="nav-content">
+        <ul class="nav-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="proust.html">Proust Questionnaire</a></li>
+          <li><a href="trivia.html">Trivia</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="social-links">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/zuzanna-kocik">
+            <i data-feather="linkedin"></i>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/zk1989">
+            <i data-feather="github"></i>
+          </a>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
 <main class="page-content">
   <div class="section-header">
@@ -76,7 +76,13 @@
         - if default html/body values in terms of margins and padding are not overwritten, the browser defaults will be applied, called "user agent styles" or "user agent settings"<br>
         - header is a broader term - it can contain logo and navigation, while all "nav" elements are only for navigation purposes<br>
         - for composition debugging (flex/grid structures) it's good to ask AI to color all divs differently and draw their outlines<br>
-        - I learned basic usage and definition of variables (custom properties) in CSS</p>
+    </div>
+
+    <div class="about-section">
+      <p><b>Lessons learned - front-end security:</b><br>
+        - add rel="noopener noreferrer" attribute to link tags: 
+        noopener prevents new page from accessing information about the original page, changing the URL of the original page or using original page resources;
+        noreferrer enhances privacy by not revealing where the user came from and prevents the target site from seeing my website analytics
     </div>
   </div>
 </main>
